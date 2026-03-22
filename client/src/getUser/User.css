@@ -1,0 +1,74 @@
+.UserTable{
+    width: 60%;
+    margin:50px auto ;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.065);
+}
+.UserTable table{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.UserTable table thead th{
+    background-color: darkcyan;
+    color: white;
+
+
+}
+
+.UserTable table tbody td{
+    padding: 10px;
+     text-align: center;
+     vertical-align: middle;
+
+}
+
+.actionButtons {
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.edit-form {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.edit-form .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.edit-form input,
+.edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.edit-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.edit-form button {
+    margin-right: 10px;
+    margin-top: 10px;
+}
